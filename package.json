@@ -2,9 +2,10 @@
   "name": "timeslide",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
-    "start": "npx webpack-dev-server --config ./scripts/webpack.config.js --inline --host 127.0.0.1 --content-base examples/",
+    "start": "npx webpack-dev-server --config ./scripts/webpack.dev.config.js --inline --host 127.0.0.1 --content-base examples/",
+    "build":  "webpack --config ./scripts/webpack.prod.config.js",
     "lint": "eslint src/"
   },
   "repository": {

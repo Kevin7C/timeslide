@@ -4,6 +4,7 @@
 scripts/__pycache__/
 examples/**/*-bundle.js
 node_modules/
+lib
 .idea/
 .vscode
 _book
